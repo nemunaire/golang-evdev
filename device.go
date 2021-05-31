@@ -259,12 +259,12 @@ type CapabilityCode struct {
 }
 
 type AbsInfo struct {
-	value      int32
-	minimum    int32
-	maximum    int32
-	fuzz       int32
-	flat       int32
-	resolution int32
+	Value      int32
+	Minimum    int32
+	Maximum    int32
+	Fuzz       int32
+	Flat       int32
+	Resolution int32
 }
 
 func (dev *InputDevice) GetAbsInfo(axis int) (AbsInfo, error) {
